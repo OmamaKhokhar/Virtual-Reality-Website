@@ -1,0 +1,30 @@
+@font-face {
+    font-family:"Roboto-Regular";
+    src: url(Assests/Fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family:"Roboto-Medium";
+    src: url(Assests/Fonts/Roboto/Roboto-Medium.ttf);
+}
+/* HEADER */
+header>.container-fluid:nth-child(1){
+    background-color: #100527; 
+    font-family: "Roboto-Regular";
+}
+.nav-item .active{
+   color: rgba(194,29,215,1) !important; 
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color:rgba(194,29,215,1);
+}
+.button{
+    color: white;
+    background: linear-gradient(133deg, rgba(194,29,215,1) 0%, rgba(130,104,222,1) 52%, rgba(34,217,233,1) 100%);
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 0px;
+    font-family: "Roboto-Regular";
+}
