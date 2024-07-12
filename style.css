@@ -6,6 +6,10 @@
     font-family:"Roboto-Medium";
     src: url(Assests/Fonts/Roboto/Roboto-Medium.ttf);
 }
+body{
+    color: white;
+    font-family: "Roboto-Regular" !important;
+}
 /* HEADER */
 /* navbar */
 header>.container-fluid{
@@ -31,16 +35,12 @@ header>.container-fluid{
 }
 /* hero section */
 header>.container-fluid:nth-child(2){
-    background: linear-gradient(135deg, #100527 0%, #7f1886 100%);
+    background: linear-gradient(135deg, #100527 0%, #65156b 100%);
     height: 80vh;
 }
 
-/* Heading of the Hero Section */
-.hero-section h1{
-    color: white;
-}
 /* Virtual Reality tesxt styling */
-.hero-section h1>span{
+.G-text{
     background: #F124FF;
     background: linear-gradient(to right, #F124FF 5%, #8268DE 58%, #22D9E9 100%);
     -webkit-background-clip: text;
@@ -121,4 +121,21 @@ header>.container-fluid:nth-child(2){
     .button{
         font-size: 1.1vw;
     }
+}
+/* MAIN */
+
+/* Product Section */
+.product-section{
+    background-color: #100527;
+}
+.product-cards{
+    height: 45vh;
+    background-color: rgba(255, 255, 255,0.09);
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient(circle at 100% 100%, transparent 9px, #c21dd7 9px, #c21dd7 11px, transparent 11px), linear-gradient(to right, #c21dd7, #28d2e8), radial-gradient(circle at 0% 100%, transparent 9px, #28d2e8 9px, #28d2e8 11px, transparent 11px), linear-gradient(to bottom, #28d2e8, #8268de), radial-gradient(circle at 0% 0%, transparent 9px, #8268de 9px, #8268de 11px, transparent 11px), linear-gradient(to left, #8268de, #8268de), radial-gradient(circle at 100% 0%, transparent 9px, #8268de 9px, #8268de 11px, transparent 11px), linear-gradient(to top, #8268de, #c21dd7);
+    background-size: 11px 11px, calc(100% - 22px) 2px, 11px 11px, 2px calc(100% - 22px);
+    background-position: top left,top center,top right,center right, bottom right,bottom center,bottom left,center left;
+    background-repeat: no-repeat;
 }
