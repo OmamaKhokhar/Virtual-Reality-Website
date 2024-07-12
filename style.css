@@ -139,3 +139,14 @@ header>.container-fluid:nth-child(2){
     background-position: top left,top center,top right,center right, bottom right,bottom center,bottom left,center left;
     background-repeat: no-repeat;
 }
+
+
+.specialty-section{
+    background-color: #160C27;
+}
+
+.specialty-section p{
+    color: rgb(131, 131, 131);
+    font-size:12px;
+    line-height:1.5;
+}
