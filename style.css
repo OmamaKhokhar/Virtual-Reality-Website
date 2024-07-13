@@ -9,13 +9,10 @@
 body{
     color: white;
     font-family: "Roboto-Regular" !important;
+    background-color:#100527;
 }
 /* HEADER */
 /* navbar */
-header>.container-fluid{
-    background-color: #100527; 
-    font-family: "Roboto-Regular";
-}
 .nav-item .active{
    color: rgba(194,29,215,1) !important; 
 }
@@ -32,6 +29,12 @@ header>.container-fluid{
     border-radius: 5px;
     padding: 10px 0px;
     font-family: "Roboto-Regular";
+}
+.s-paragraph{
+    color: rgb(131, 131, 131);
+    font-size:12px;
+    line-height:1.5;
+
 }
 /* hero section */
 header>.container-fluid:nth-child(2){
@@ -88,7 +91,6 @@ header>.container-fluid:nth-child(2){
         font-size:3.3vw ;
     }
      .hero-section p{
-        color: rgb(131, 131, 131);
         font-size:1.5vw;
         line-height:1.1;
     }
@@ -102,7 +104,7 @@ header>.container-fluid:nth-child(2){
         height: 68%;
      }
 
-     .hero-section p{
+    .hero-section .s-paragraph{
         font-size:1vw;
         line-height:1.3;
     }
@@ -128,12 +130,6 @@ header>.container-fluid:nth-child(2){
 .specialty-section{
     background-color: #160C27;
 }
-.specialty-section p{
-    color: rgb(131, 131, 131);
-    font-size:12px;
-    line-height:1.5;
-}
-
 /* Media Query for the image in Specialty section on large and Small screens*/
 @media (min-width:992px)and (max-width:1199px) ,(min-width:576px)and (max-width:767px)  {
     .specialty-section img{
@@ -175,17 +171,27 @@ header>.container-fluid:nth-child(2){
 }
 
 /* Product Section */
-.product-section{
-    background-color: #100527;
-}
 .product-cards{
     height: 40vh;
     background-color: rgba(255, 255, 255,0.09);
     border-radius: 11px;
     display: flex;
     justify-content: center;
-    background-image: radial-gradient(circle at 100% 100%, transparent 9px, #c21dd7 9px, #c21dd7 11px, transparent 11px), linear-gradient(to right, #c21dd7, #28d2e8), radial-gradient(circle at 0% 100%, transparent 9px, #28d2e8 9px, #28d2e8 11px, transparent 11px), linear-gradient(to bottom, #28d2e8, #8268de), radial-gradient(circle at 0% 0%, transparent 9px, #8268de 9px, #8268de 11px, transparent 11px), linear-gradient(to left, #8268de, #8268de), radial-gradient(circle at 100% 0%, transparent 9px, #8268de 9px, #8268de 11px, transparent 11px), linear-gradient(to top, #8268de, #c21dd7);
+    background-image: radial-gradient(circle at 100% 100%, transparent 9px, rgb(194, 29, 215) 9px, #c21dd7 11px, transparent 11px), linear-gradient(to right, #c21dd7, rgb(40, 210, 232)), radial-gradient(circle at 0% 100%, transparent 9px, #28d2e8 9px, #28d2e8 11px, transparent 11px), linear-gradient(to bottom, #28d2e8, #8268de), radial-gradient(circle at 0% 0%, transparent 9px, #8268de 9px, #8268de 11px, transparent 11px), linear-gradient(to left, #8268de, #8268de), radial-gradient(circle at 100% 0%, transparent 9px, #8268de 9px, #8268de 11px, transparent 11px), linear-gradient(to top, #8268de, #c21dd7);
     background-size: 11px 11px, calc(100% - 22px) 2px, 11px 11px, 2px calc(100% - 22px);
     background-position: top left,top center,top right,center right, bottom right,bottom center,bottom left,center left;
     background-repeat: no-repeat;
+}
+/* Choose-Us Section */
+.choose-us-list{
+     list-style-image: url(Assests/Icons/circle.png);
+     font-size: 1.25em;
+
+
+}
+@media screen and (max-width:384px) {
+    .choose-us-list li{
+        width: 100%;
+    }
+    
 }
