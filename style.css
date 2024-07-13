@@ -124,22 +124,6 @@ header>.container-fluid:nth-child(2){
 }
 /* MAIN */
 
-/* Product Section */
-.product-section{
-    background-color: #100527;
-}
-.product-cards{
-    height: 45vh;
-    background-color: rgba(255, 255, 255,0.09);
-    border-radius: 11px;
-    display: flex;
-    justify-content: center;
-    background-image: radial-gradient(circle at 100% 100%, transparent 9px, #c21dd7 9px, #c21dd7 11px, transparent 11px), linear-gradient(to right, #c21dd7, #28d2e8), radial-gradient(circle at 0% 100%, transparent 9px, #28d2e8 9px, #28d2e8 11px, transparent 11px), linear-gradient(to bottom, #28d2e8, #8268de), radial-gradient(circle at 0% 0%, transparent 9px, #8268de 9px, #8268de 11px, transparent 11px), linear-gradient(to left, #8268de, #8268de), radial-gradient(circle at 100% 0%, transparent 9px, #8268de 9px, #8268de 11px, transparent 11px), linear-gradient(to top, #8268de, #c21dd7);
-    background-size: 11px 11px, calc(100% - 22px) 2px, 11px 11px, 2px calc(100% - 22px);
-    background-position: top left,top center,top right,center right, bottom right,bottom center,bottom left,center left;
-    background-repeat: no-repeat;
-}
-
 /* Specialty Section */
 .specialty-section{
     background-color: #160C27;
@@ -150,8 +134,8 @@ header>.container-fluid:nth-child(2){
     line-height:1.5;
 }
 
-/* Media Query for the image in Specialty section on large screens  */
-@media (min-width:992px)and (max-width:1199px) {
+/* Media Query for the image in Specialty section on large and Small screens*/
+@media (min-width:992px)and (max-width:1199px) ,(min-width:576px)and (max-width:767px)  {
     .specialty-section img{
         width: 240px;
      }
@@ -160,12 +144,12 @@ header>.container-fluid:nth-child(2){
      }
 }
 /* Media Query for the image and Font size of text in Specialty section on Medium screens  */
-@media (min-width:768px)and (max-width:991px) {
+@media (min-width:768px) and (max-width:991px){
     .specialty-section img{
-        width: 190px;
+        width: 195px;
      }
      .specialty-section span ~ span img{
-        width: 205px;
+        width: 210px;
      }
      .specialty-section h3{
         font-size: 22px;
@@ -173,4 +157,35 @@ header>.container-fluid:nth-child(2){
      .specialty-section div.fs-5{
         font-size: 16px !important;
      }
+}
+/* Media Query for the image and Font size of text in Specialty section on Extra Small screens  */
+@media (min-width:0px) and (max-width:575px){
+    .specialty-section img{
+        width: 90vw;
+     }
+     .specialty-section span ~ span img{
+        display: none;
+     }
+     .specialty-section h3{
+        font-size: 26px;
+     }
+     .specialty-section div.fs-5{
+        font-size: 20px !important;
+     }
+}
+
+/* Product Section */
+.product-section{
+    background-color: #100527;
+}
+.product-cards{
+    height: 40vh;
+    background-color: rgba(255, 255, 255,0.09);
+    border-radius: 11px;
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient(circle at 100% 100%, transparent 9px, #c21dd7 9px, #c21dd7 11px, transparent 11px), linear-gradient(to right, #c21dd7, #28d2e8), radial-gradient(circle at 0% 100%, transparent 9px, #28d2e8 9px, #28d2e8 11px, transparent 11px), linear-gradient(to bottom, #28d2e8, #8268de), radial-gradient(circle at 0% 0%, transparent 9px, #8268de 9px, #8268de 11px, transparent 11px), linear-gradient(to left, #8268de, #8268de), radial-gradient(circle at 100% 0%, transparent 9px, #8268de 9px, #8268de 11px, transparent 11px), linear-gradient(to top, #8268de, #c21dd7);
+    background-size: 11px 11px, calc(100% - 22px) 2px, 11px 11px, 2px calc(100% - 22px);
+    background-position: top left,top center,top right,center right, bottom right,bottom center,bottom left,center left;
+    background-repeat: no-repeat;
 }
