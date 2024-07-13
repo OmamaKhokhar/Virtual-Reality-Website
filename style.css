@@ -140,13 +140,37 @@ header>.container-fluid:nth-child(2){
     background-repeat: no-repeat;
 }
 
-
+/* Specialty Section */
 .specialty-section{
     background-color: #160C27;
 }
-
 .specialty-section p{
     color: rgb(131, 131, 131);
     font-size:12px;
     line-height:1.5;
+}
+
+/* Media Query for the image in Specialty section on large screens  */
+@media (min-width:992px)and (max-width:1199px) {
+    .specialty-section img{
+        width: 240px;
+     }
+     .specialty-section span ~ span img{
+        width: 260px;
+     }
+}
+/* Media Query for the image and Font size of text in Specialty section on Medium screens  */
+@media (min-width:768px)and (max-width:991px) {
+    .specialty-section img{
+        width: 190px;
+     }
+     .specialty-section span ~ span img{
+        width: 205px;
+     }
+     .specialty-section h3{
+        font-size: 22px;
+     }
+     .specialty-section div.fs-5{
+        font-size: 16px !important;
+     }
 }
