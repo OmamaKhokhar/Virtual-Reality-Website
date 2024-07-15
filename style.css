@@ -99,9 +99,6 @@ header>.container-fluid:nth-child(2){
     .hero-section-image .row{
         height: 68%;
      }
-    .button{
-        font-size: 1vw;
-    }
 }
 /*Resetting Media Query for the image heading and button  in hero section on large screens */
 @media screen and (min-width:1200px) {
@@ -118,15 +115,6 @@ header>.container-fluid:nth-child(2){
 .specialty-section{
     background-color: #160C27;
 }
-/* Media Query for the image in Specialty section on large and Small screens*/
-@media (min-width:992px)and (max-width:1199px) ,(min-width:576px)and (max-width:767px)  {
-    .specialty-section img{
-        width: 240px;
-     }
-     .specialty-section span ~ span img{
-        width: 260px;
-     }
-}
 /* Media Query for the image and Font size of text in Specialty section on Medium screens  */
 @media (min-width:768px) and (max-width:991px){
     .specialty-section img{
@@ -142,10 +130,19 @@ header>.container-fluid:nth-child(2){
         font-size: 16px !important;
      }
 }
+/* Media Query for the image in Specialty section on large and Small screens*/
+@media (min-width:992px)and (max-width:1199px) ,(min-width:576px)and (max-width:767px)  {
+    .specialty-section img{
+        width: 255px;
+     }
+     .specialty-section span ~ span img{
+        width: 265px;
+     }
+}
 /* Media Query for the image and Font size of text in Specialty section on Extra Small screens  */
 @media (min-width:0px) and (max-width:575px){
     .specialty-section img{
-        width: 90vw;
+        width: 92vw;
      }
      .specialty-section span ~ span img{
         display: none;
