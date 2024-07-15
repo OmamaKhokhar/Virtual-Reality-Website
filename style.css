@@ -187,3 +187,8 @@ header>.container-fluid:nth-child(2){
     
 }
 
+/* Discount Section */
+.discount-section{
+    background-image: url(Assests/Images/discount-section-image.png);
+    background-size: cover;
+}
