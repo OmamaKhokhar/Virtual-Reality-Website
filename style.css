@@ -1,30 +1,36 @@
 @font-face {
-    font-family:"Roboto-Regular";
+    font-family: "Roboto-Regular";
     src: url(Assests/Fonts/Roboto/Roboto-Regular.ttf);
 }
+
 @font-face {
-    font-family:"Roboto-Medium";
+    font-family: "Roboto-Medium";
     src: url(Assests/Fonts/Roboto/Roboto-Medium.ttf);
 }
-body{
+
+body {
     color: white;
     font-family: "Roboto-Regular" !important;
-    background-color:#100527;
+    background-color: #100527;
 }
+
 /* HEADER */
 /* navbar */
-.nav-item .active{
-   color: rgba(194,29,215,1) !important; 
+.nav-item .active {
+    color: rgba(194, 29, 215, 1) !important;
 }
-.nav-item a{
+
+.nav-item a {
     color: white;
 }
-.nav-item a:hover{
-    color:rgba(194,29,215,1);
+
+.nav-item a:hover {
+    color: rgba(194, 29, 215, 1);
 }
-.button{
+
+.button {
     color: white;
-    background: linear-gradient(133deg, rgba(194,29,215,1) 0%, rgba(130,104,222,1) 52%, #22d9e9 100%);
+    background: linear-gradient(133deg, rgba(194, 29, 215, 1) 0%, rgba(130, 104, 222, 1) 52%, #22d9e9 100%);
     border: 0;
     border-radius: 5px;
     padding: 10px 0px;
@@ -32,21 +38,23 @@ body{
 }
 
 /* Small Paragraph Text Style */
-.s-paragraph{
-    color: rgb(131, 131, 131);
-    font-size:12px;
-    line-height:1.5;
+.s-paragraph {
+    color: #838383;
+    font-size: 12px;
+    line-height: 1.5;
 
 }
+
 /* Gradient Border on box */
-.G-border{
+.G-border {
     background-image: radial-gradient(circle at 100% 100%, transparent 9px, rgb(194, 29, 215) 9px, #c21dd7 11px, transparent 11px), linear-gradient(to right, #c21dd7, rgb(40, 210, 232)), radial-gradient(circle at 0% 100%, transparent 9px, #28d2e8 9px, #28d2e8 11px, transparent 11px), linear-gradient(to bottom, #28d2e8, #8268de), radial-gradient(circle at 0% 0%, transparent 9px, #8268de 9px, #8268de 11px, transparent 11px), linear-gradient(to left, #8268de, #8268de), radial-gradient(circle at 100% 0%, transparent 9px, #8268de 9px, #8268de 11px, transparent 11px), linear-gradient(to top, #8268de, #c21dd7);
     background-size: 11px 11px, calc(100% - 22px) 2px, 11px 11px, 2px calc(100% - 22px);
-    background-position: top left,top center,top right,center right, bottom right,bottom center,bottom left,center left;
+    background-position: top left, top center, top right, center right, bottom right, bottom center, bottom left, center left;
     background-repeat: no-repeat;
 }
+
 /* Gradient text styling */
-.G-text{
+.G-text {
     background: #F124FF;
     background: linear-gradient(to right, #F124FF 5%, #8268DE 58%, #22D9E9 100%);
     -webkit-background-clip: text;
@@ -54,163 +62,208 @@ body{
     font-weight: 600;
 }
 
+/* Gradient underline styling */
+.G-underline {
+    position: relative;
+}
+.G-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    width: 100%;
+    height: 1px; /* Set the height of the underline */
+    background: linear-gradient(to right, #F124FF 5%, #8268DE 58%, #22D9E9 100%);
+}
+
 /* Hero section */
-header>.container-fluid:nth-child(2){
+header>.container-fluid:nth-child(2) {
     background: linear-gradient(135deg, #100527 0%, #65156b 100%);
     height: 80vh;
 }
+
 /* Media Query for the heading  (Mobile screens and Tablet) */
 @media screen and (max-width: 767px) {
-    .hero-section h1{
-        font-size:4.2vw ;
+    .hero-section h1 {
+        font-size: 4.2vw;
     }
+
     /* height of the col section(Text + Image ) of the hero secton till tablet screen */
-    .hero-section .row>.col-12{
+    .hero-section .row>.col-12 {
         height: 50%;
     }
-    .hero-section .row>.col-12>.row{
+
+    .hero-section .row>.col-12>.row {
         height: 100%;
     }
 }
+
 @media screen and (max-width: 560px) {
-    .hero-section h1{
-        font-size:6.1vw ;
+    .hero-section h1 {
+        font-size: 6.1vw;
     }
 }
+
 /* Media Query for the images in hero section (Mobile screens and Tablet) */
-@media screen and (min-width: 425px)   {
-    .hero-section img{
-       width: 60%;
-       margin-left:auto;
+@media screen and (min-width: 425px) {
+    .hero-section img {
+        width: 60%;
+        margin-left: auto;
     }
 }
+
 /*Resetting Media Query for the image heading and button  in hero section in small laptop  */
 @media screen and (min-width:768px) {
-    .hero-section-image img{
-        width: 100% ;
+    .hero-section-image img {
+        width: 100%;
         height: 100%;
-    
-     }
-     .hero-section-image .row{
-        height: 65%;
-     }
 
-     .hero-section h1{
-        font-size:3.3vw ;
     }
-    .button{
+
+    .hero-section-image .row {
+        height: 65%;
+    }
+
+    .hero-section h1 {
+        font-size: 3.3vw;
+    }
+
+    .button {
         font-size: 1.5vw;
     }
 }
+
 /*Resetting Media Query for the heading and button in hero section in large laptop  */
 @media screen and (min-width:769px) {
-    .hero-section-image .row{
+    .hero-section-image .row {
         height: 68%;
-     }
+    }
 }
+
 /*Resetting Media Query for the image heading and button  in hero section on large screens */
 @media screen and (min-width:1200px) {
-     .hero-section h1{
-        font-size:3.4vw ;
+    .hero-section h1 {
+        font-size: 3.4vw;
     }
-    .button{
+
+    .button {
         font-size: 1.1vw;
     }
 }
+
 /* MAIN */
 
-/* Specialty Section */
-.specialty-section{
+/* Specialty Section and Article Section */
+.specialty-section,
+div.article-section .article-card-detail {
     background-color: #160C27;
 }
+
 /* Media Query for the image and Font size of text in Specialty section on Medium screens  */
-@media (min-width:768px) and (max-width:991px){
-    .specialty-section img{
+@media (min-width:768px) and (max-width:991px) {
+    .specialty-section img {
         width: 195px;
-     }
-     .specialty-section span ~ span img{
+    }
+
+    .specialty-section span~span img {
         width: 210px;
-     }
-     .specialty-section h3{
+    }
+
+    .specialty-section h3 {
         font-size: 22px;
-     }
-     .specialty-section div.fs-5{
+    }
+
+    .specialty-section div.fs-5 {
         font-size: 16px !important;
-     }
+    }
 }
+
 /* Media Query for the image in Specialty section on large and Small screens*/
-@media (min-width:992px)and (max-width:1199px) ,(min-width:576px)and (max-width:767px)  {
-    .specialty-section img{
+@media (min-width:992px)and (max-width:1199px),
+(min-width:576px)and (max-width:767px) {
+    .specialty-section img {
         width: 255px;
-     }
-     .specialty-section span ~ span img{
+    }
+
+    .specialty-section span~span img {
         width: 265px;
-     }
+    }
 }
+
 /* Media Query for the image and Font size of text in Specialty section on Extra Small screens  */
-@media (min-width:0px) and (max-width:575px){
-    .specialty-section img{
+@media (min-width:0px) and (max-width:575px) {
+    .specialty-section img {
         width: 100%;
-     }
-     .specialty-section span ~ span img{
+    }
+
+    .specialty-section span~span img {
         display: none;
-     }
-     .specialty-section h3{
+    }
+
+    .specialty-section h3 {
         font-size: 26px;
-     }
-     .specialty-section div.fs-5{
+    }
+
+    .specialty-section div.fs-5 {
         font-size: 20px !important;
-     }
+    }
 }
 
 /* Product Section */
-.product-cards{
+.product-cards {
     height: 40vh;
-    background-color: rgba(255, 255, 255,0.09);
+    background-color: rgba(255, 255, 255, 0.09);
     border-radius: 11px;
     display: flex;
     justify-content: center;
 }
 
 /* Choose-Us Section */
-.choose-us-list{
-     list-style-image: url(Assests/Icons/circle.png);
+.choose-us-list {
+    list-style-image: url(Assests/Icons/circle.png);
 }
+
 @media screen and (max-width:384px) {
-    .choose-us-list li{
+    .choose-us-list li {
         width: 100%;
     }
 }
 
 /* Features Section */
-.features-section-list{
+.features-section-list {
     list-style: none;
 }
+
 @media screen and (max-width:455px) {
-    .features-section-list li{
+    .features-section-list li {
         width: 100%;
     }
-    
+
 }
+
 /* Discount Section */
-.discount-section{
+.discount-section {
     background-image: url(Assests/Images/discount-section-image.png);
     background-size: cover;
 }
 
 /* How Its Works Section */
 /* Circle Styling */
-span.circle{
-      width: 30px;
-      height: 30px;
-      background-color: rgba(131, 131, 131, 0.46);
+span.circle {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(131, 131, 131, 0.46);
 }
 
 /* Media Querry for Each Steps Card Width in How Its Work Section till small screens*/
 @media (min-width:576px) {
-    .custom-col{
+    .custom-col {
         width: 48.8%;
     }
 }
 
-
+/* Article Section*/
+div.article-card-detail h6 {
+    font-size: 15px;
+    line-height: 1.4;
+}
