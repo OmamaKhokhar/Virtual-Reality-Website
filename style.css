@@ -263,7 +263,24 @@ span.circle {
 }
 
 /* Article Section*/
-div.article-card-detail h6 {
+div.article-card-detail h6{
     font-size: 15px;
     line-height: 1.4;
+}
+
+/* Footer */
+div.footer{
+    background-image: url(Assests/Images/Footer-image.png);
+    background-size: cover;
+}
+/* Footer Navigation List Item */
+div.footer li{
+    list-style-position: inside;
+    margin-bottom: 6px;
+}
+div.footer li::marker{
+    color: rgb(211, 36, 235);
+}
+div.footer .s-paragraph{
+    color: #cacaca;
 }
