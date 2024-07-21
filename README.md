@@ -18,7 +18,7 @@
 
 
 <!-- TABLE OF CONTENTS -->
-<h2>Table Of Contents</h2>
+<h2>Table Of Contents:</h2>
 <details>
   <summary>Table of Contents</summary>
   <ul>
@@ -35,7 +35,7 @@
 
 <!-- ABOUT THE PROJECT -->
 <div id="about-the-project">
-<h2>About The Project</h2>
+<h2>About The Project:</h2>
 <p>This modern web design project was created using HTML, CSS, and Bootstrap 5. It was a collaborative effort between Omama Khokhar and Hadia Khokhar as part of the Saylani Mass IT training program Group Project Assignment.
 This Project is inspired by a Behance design, we have made several customizations to suit the requirements.</p>
 </div>
@@ -43,7 +43,7 @@ This Project is inspired by a Behance design, we have made several customization
 <br/>
 <!-- Development Tools/Frameworks -->
 <div id="tools">
-<h2>Development Tools/Frameworks</h2>
+<h2>Development Tools/Frameworks:</h2>
 <p align="left">
 <img src="https://skillicons.dev/icons?i=html,css,bootstrap,ai&theme=dark" />
 </p
@@ -52,7 +52,7 @@ This Project is inspired by a Behance design, we have made several customization
 <br/>
 <!-- Description -->
 <div id="description">
-<h2>Description</h2>
+<h2>Description:</h2>
 <p>The primary goal of this project was to create a visually appealing and user-friendly website that adheres to modern design standards. 
 We customized various elements from the original Behance design to improve usability and performance. Key features include a fully responsive layout, interactive elements, and a polished UI/UX. 
 This project was a collaborative effort, highlighting our ability to work effectively as a team.</p>
@@ -61,7 +61,7 @@ This project was a collaborative effort, highlighting our ability to work effect
 <br/>
 <!-- Highlights -->
 <div id="highlights">
-  <h2>Highlights</h2>
+  <h2>Highlights:</h2>
   <ul>
     <li><h3>Fully Responsive Design:</h3> Ensures Compatibility across different devices and screen sizes.</li>
     <li><h3>Catchy and Attractive Graphics:</h3> Uses Modern Design elements to create a visually appealing interface.</li>
@@ -73,14 +73,14 @@ This project was a collaborative effort, highlighting our ability to work effect
 <br/>
 <!-- Live Website -->
 <div id="live-website"> 
-<h2>Live Website</h2>
+<h2>Live Website:</h2>
 <p>Check out the live version of our project:  <a href="https://omamakhokhar.github.io/Virtual-Reality-Website/">VR Website</a>.</p>
 </div>
 
 <br/>
 <!-- Contributors -->
 <div id="contributors">
-<h2>Contributors</h2>
+<h2>Contributors:</h2>
 <a href="https://github.com/OmamaKhokhar">
   <img src="https://avatars.githubusercontent.com/u/161382166?s=400&u=170fe9301ca341b0793cc460bf8e503f544e52d5&v=4" width="80px;" alt="Omama Khokhar"/>
 </a>
@@ -92,9 +92,9 @@ This project was a collaborative effort, highlighting our ability to work effect
 <br/>
 <!-- Acknowledgments -->
 <div id="acknowledgments">
-  <h2>Acknowledgments</h2>
-  <p>We would like to thank the original designer on Behance for the incredible design that inspired our project.</p>
-  <p> Check out the Behance Profile of <a href="https://www.behance.net/dharmesh1231">Dharmesh Dumaniya</a></p>
+  <h2>Acknowledgments:</h2>
+  <p>We thank the original designer on Behance for the incredible design that inspired our project.</p>
+  <p> Check out the Behance Profile: <a href="https://www.behance.net/dharmesh1231">Dharmesh Dumaniya</a></p>
 </div>
 
 <br/>
