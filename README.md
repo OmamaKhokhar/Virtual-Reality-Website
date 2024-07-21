@@ -45,7 +45,7 @@ This Project is inspired by a Behance design, we have made several customization
 <div id="tools">
 <h2>Development Tools/Frameworks:</h2>
 <p align="left">
-<img src="https://skillicons.dev/icons?i=html,css,bootstrap,ai&theme=dark" />
+<img src="https://skillicons.dev/icons?i=html,css,bootstrap,&theme=dark" />
 </p
 </div>
 
@@ -74,19 +74,21 @@ This project was a collaborative effort, highlighting our ability to work effect
 <!-- Live Website -->
 <div id="live-website"> 
 <h2>Live Website:</h2>
-<p>Check out the live version of our project:  <a href="https://omamakhokhar.github.io/Virtual-Reality-Website/">VR Website</a>.</p>
+<p>Check out the live version of our project:  </p>
+<a href="https://omamakhokhar.github.io/Virtual-Reality-Website/">VR Website</a>
 </div>
 
 <br/>
 <!-- Contributors -->
 <div id="contributors">
 <h2>Contributors:</h2>
+<a href="https://github.com/HadiaKhokhar">
+  <img src="https://avatars.githubusercontent.com/u/135761381?v=4" width="80px;" alt="Hadia Khokhar"/>
+</a>&nbsp;&nbsp;
 <a href="https://github.com/OmamaKhokhar">
   <img src="https://avatars.githubusercontent.com/u/161382166?s=400&u=170fe9301ca341b0793cc460bf8e503f544e52d5&v=4" width="80px;" alt="Omama Khokhar"/>
 </a>
-<a href="https://github.com/HadiaKhokhar">
-  <img src="https://avatars.githubusercontent.com/u/135761381?v=4" width="80px;" alt="Hadia Khokhar"/>
-</a>
+
 </div>
 
 <br/>
@@ -94,7 +96,8 @@ This project was a collaborative effort, highlighting our ability to work effect
 <div id="acknowledgments">
   <h2>Acknowledgments:</h2>
   <p>We thank the original designer on Behance for the incredible design that inspired our project.</p>
-  <p> Check out the Behance Profile: <a href="https://www.behance.net/dharmesh1231">Dharmesh Dumaniya</a></p>
+  <p> Check out the Behance Profile:</p>
+    <a href="https://www.behance.net/dharmesh1231">Dharmesh Dumaniya</a>
 </div>
 
 <br/>
@@ -108,7 +111,8 @@ This project was a collaborative effort, highlighting our ability to work effect
 </p>
 <p align="left">
 <h4>Hadia Khokhar: </h4>
-<a href="mailto:workwithhadiaa@outlook.com" target="_blank"><img align="center" src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="omamakhokhar" width="120px" height="30px"/></a> &nbsp;&nbsp;
+<a href="mailto:workwithhadiaa@outlook.com" target="_blank"><img align="center" src="https://img.shields.io/badge/Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Hadia Khokhar" width="120px" height="30px"/></a> &nbsp;&nbsp;
+<a href="mailto:workwithhadia@gmail.com" target="_blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Hadia Khokhar" width="120px" height="30px"/></a> &nbsp;&nbsp; 
 </p>
 </div>
 
