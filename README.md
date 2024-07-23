@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
+<div align="center" id="top">
   <a href="[https://github.com/othneildrew/Best-README-Template](https://github.com/OmamaKhokhar/Virtual-Reality-Website)">
     <img src="Assests/Images/VR-logo.png" alt="Logo" width="90" height="90">
   </a>
@@ -117,4 +117,4 @@ This project was a collaborative effort, highlighting our ability to work effect
 </div>
 
 <br/>
-<p align="right"><a href="#readme-top">Back to top</a></p>
+<p align="right"><a href="top">Back to top</a></p>
