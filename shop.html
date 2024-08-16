@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop - Virtual Reality Website</title>
+  <link rel="shortcut icon" href="Assests/Images/VR-logo.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/2e3e284156.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+  <!-- HEADER STARTS -->
+  <header>
+    <!-- NAVBAR -->
+    <div class="container-fluid">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <!-- LOGO -->
+          <div class="navbar-brand">
+            <img src="Assests/Images/VR-logo.png" alt="">
+          </div>
+          <!-- MENU BUTTON -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars fa-lg" style="color: #8268de;"></i>
+          </button>
+          <!-- PAGES LINKS -->
+          <div class="w-auto collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="row-cols-lg-auto row-cols-1 navbar-nav align-items-center ms-auto mb-2 mb-lg-0 ">
+              <li class="nav-item me-xl-5 me-lg-3 ">
+                <a class="nav-link" aria-current="page" href="index.html">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item me-xl-5 me-lg-3 ">
+                <a class="nav-link" href="index.html#about">
+                  About us
+                </a>
+              </li>
+              <li class="nav-item me-xl-5 me-lg-3">
+                <a class="nav-link " href="index.html#Products">Products</a>
+              </li>
+              <li class="nav-item me-xl-5 me-lg-3">
+                <a class="nav-link " href="index.html#features">Features</a>
+              </li>
+              <li class="nav-item me-xl-5 me-lg-3">
+                <a class="nav-link " href="index.html#use">How To Use</a>
+              </li>
+              <li class="nav-item me-xl-5  me-lg-3">
+                <a class="nav-link " href="">Contact Us</a>
+              </li>
+              <li class=" nav-item  ms-xl-2 ms-lg-5 justify-content-end">
+                <span class="w-auto nav-link p-0">
+                  <i class="me-3 fa-solid fa-cart-shopping fa-lg" style="color: #c21dd7 ;"></i>
+                  <i class="me-3 fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                  <button class=" button px-4">Sign in</button>
+                </span>
+
+              </li>
+            </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- Hero Section -->
+    <div class="hero-section  container-fluid ">
+      <div class="container h-100 ">
+        <div class="row h-100">
+          <!-- Text Section -->
+          <div class="col-12 col-md-7 col-lg-8">
+            <div class="row h-100 row-cols-1 align-content-center">
+              <!-- Main Heading -->
+              <div class="col">
+                <h1>Unlock New Worlds And </h1>
+                <h1>Redefine your Reality With</h1>
+                <h1>Our Smart <span class="G-text">VR Technology</span></h1>
+              </div>
+              <!-- para -->
+              <div class="col-10 col-lg-9 d-none d-md-flex s-paragraph">
+                <p>
+                  Our VR headsets are more than just a product—they're your gateway to extraordinary experiences.
+                  Designed with cutting-edge technology, these headsets offer unparalleled visuals, seamless
+                  performance, and ultimate comfort. Whether you're exploring new worlds, playing intense games, or
+                  watching 3D movies, our VR headsets deliver the immersion you crave.
+                </p>
+              </div>
+              <!-- button -->
+              <div class="col d-none d-sm-flex ">
+                <button class="button px-3 px-md-2 px-lg-4">
+                  Explore Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Image Section -->
+          <div class="col-12 col-md-5 col-lg-4 hero-section-image align-content-end">
+            <div class="row w-100  m-0  justify-content-center">
+              <img class="col-auto  h-100 " src="Assests/Images/hero-section-image.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- HEADER ENDS -->
+
+  <!-- MAIN STARTS -->
+  <main>
+    <!-- Products Section -->
+    <div class="product-section container-fluid" id="Products">
+      <div class="container py-5">
+        <h1 class="text-center">Products</h1>
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 mt-5 justify-content-center gx-xlg-5 gx-lg-4 gx-5 gy-5">
+
+          <div class="col">
+            <div class="product-shop-cards rounded-4 position-relative">
+              <span class="sticker p-2 rounded-3 position-absolute end-0 fw-bolder"><i class="fa-solid fa-bullhorn"
+                  style="color: #ffffff;"></i> SALE</span>
+
+              <div class="px-5 py-2 product-shop-cards-image d-flex justify-content-center">
+                <img src="Assests/Images/Product-section-image-1.png" class="card-img-top" alt="VR Head Set">
+              </div>
+
+              <div class="card-body product-shop-cards-detail rounded-4 p-4">
+                <div class="row row-cols-3 justify-content-center gy-3">
+
+                  <div class="col flex-fill">
+                    <div class="row row-cols-1">
+                      <div class="col">
+                        <h5>PlayStation VR</h5>
+                      </div>
+                      <div class="col">
+                        <p class="s-paragraph"> Immerse yourself in unparalleled visual and Experience next-level
+                          virtual
+                          reality with the HyperVision Pro.</p>
+                      </div>
+                      <div>
+                        <span class="fa fa-star rate"></span>
+                        <span class="fa fa-star rate"></span>
+                        <span class="fa fa-star rate"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-auto p-0">
+                    <div class=" h-100 verticle-line"></div>
+                  </div>
+
+                  <div class="col flex-fill">
+                    <div class="row row-cols-1 product-feature">
+                      <div class="col">
+                        <span>HD Display:</span>
+                        <p class="s-paragraph">Crisp, clear 4K visuals.</p>
+                      </div>
+                      <div class="col">
+                        <span>Smooth:</span>
+                        <p class="s-paragraph">120Hz refresh rate</p>
+                      </div>
+                      <div class="col">
+                        <span>Comfort Fit:</span>
+                        <p class="s-paragraph">Lightweight and adjustable.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-auto align-self-end ">
+                    <button class=" button ps-2">Add to Cart <i class="me-3 fa-solid fa-cart-shopping fa-lg"
+                        style="color: #ffffff;"></i></button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="product-shop-cards rounded-4 position-relative">
+              <span class="sticker p-2 rounded-3 position-absolute end-0 fw-bolder"><i class="fa-solid fa-bullhorn"
+                  style="color: #ffffff;"></i> SALE</span>
+
+              <div class="px-5 py-2 product-shop-cards-image d-flex justify-content-center">
+                <img src="Assests/Images/Product-section-image-2.png" class="card-img-top" alt="VR Head Set">
+              </div>
+
+              <div class="card-body product-shop-cards-detail rounded-4 p-4">
+                <div class="row row-cols-3 justify-content-center gy-3">
+
+                  <div class="col flex-fill">
+                    <div class="row row-cols-1">
+                      <div class="col">
+                        <h5>Cyberpace VR</h5>
+                      </div>
+                      <div class="col">
+                        <p class="s-paragraph">Elevate your gaming experience with the VisionX Elite VR. Built for the
+                          ultimate virtual reality experience.</p>
+                      </div>
+                      <div>
+                        <span class="fa fa-star rate"></span>
+                        <span class="fa fa-star rate"></span>
+                        <span class="fa fa-star rate"></span>
+                        <span class="fa fa-star rate"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-auto p-0">
+                    <div class="h-100 verticle-line"></div>
+                  </div>
+
+                  <div class="col flex-fill">
+                    <div class="row row-cols-1 product-feature">
+                      <div class="col">
+                        <span>Tracking:</span>
+                        <p class="s-paragraph">Accurate movements.</p>
+                      </div>
+                      <div class="col">
+                        <span>Ergo Design:</span>
+                        <p class="s-paragraph">Comfortable wear, hours-long sessions.</p>
+                      </div>
+                      <div class="col">
+                        <span>Controls:</span>
+                        <p class="s-paragraph">Intuitive interaction.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-auto align-self-end ">
+                    <button class="button ps-2">Add to Cart <i class="me-3 fa-solid fa-cart-shopping fa-lg"
+                        style="color: #ffffff;"></i></button>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="product-shop-cards rounded-4 position-relative">
+              <span class="sticker p-2 rounded-3 position-absolute end-0 fw-bolder"><i class="fa-solid fa-bullhorn"
+                  style="color: #ffffff;"></i> SALE</span>
+
+              <div class="px-5 py-2 product-shop-cards-image d-flex justify-content-center">
+                <img src="Assests/Images/Product-section-image-3.png" class="card-img-top" alt="VR Head Set">
+              </div>
+
+              <div class="card-body product-shop-cards-detail rounded-4 p-4">
+                <div class="row row-cols-3 justify-content-center gy-3">
+
+                  <div class="col flex-fill">
+                    <div class="row row-cols-1">
+                      <div class="col">
+                        <h5>Oculus Rift VR</h5>
+                      </div>
+                      <div class="col">
+                        <p class="s-paragraph">Step into a new world with the Quantum Vision XR. Designed for those who
+                          crave an virtual experience.</p>
+                      </div>
+                      <div>
+                        <span class="fa fa-star rate"></span>
+                        <span class="fa fa-star rate"></span>
+                        <span class="fa fa-star rate"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-auto p-0">
+                    <div class="h-100 verticle-line"></div>
+                  </div>
+
+                  <div class="col flex-fill">
+                    <div class="row row-cols-1 product-feature">
+                      <div class="col">
+                        <span>Crystal Optics:</span>
+                        <p class="s-paragraph">Sharp visuals Optics.</p>
+                      </div>
+                      <div class="col">
+                        <span>Wide Field:</span>
+                        <p class="s-paragraph">Expansive view 110° FOV.</p>
+                      </div>
+                      <div class="col">
+                        <span>Connection:</span>
+                        <p class="s-paragraph">Stable responsive.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-auto align-self-end ">
+                    <button class="button ps-2">Add to Cart <i class="me-3 fa-solid fa-cart-shopping fa-lg"
+                        style="color: #ffffff;"></i></button>
+                  </div>
+
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <!-- MAIN ENDS -->
+
+  <!-- FOOTER STARTS -->
+  <footer>
+    <div class="footer container-fluid">
+      <div class="container pt-5">
+        <div class="row row-cols-1">
+
+          <div class="col">
+            <div class="row row-cols-md-6 row-cols-sm-3 row-cols-2 gy-3">
+              <div class="col-lg-2 col-md-3 order-sm-1 order-1">
+                <div class="row row-cols-1">
+                  <div class="col-auto mb-2">
+                    <img src="Assests/Images/VR-logo.png" alt="Logo of VR" width="60px">
+                  </div>
+                  <div class="col-sm-12 col-10 mb-2">
+                    <p class="s-paragraph m-0">Step Into A World Beyond Reality Explore Virtual Dimensions With
+                      Virtual Reality</p>
+                  </div>
+                  <div class="col">
+                    <div class="row row-cols-4">
+                      <div class="col-auto"><img src="Assests/Icons/facebook.svg" alt="Facebook Page" width="10px">
+                      </div>
+                      <div class="col-auto"><img src="Assests/Icons/instagram.svg" alt="Instagram Page" width="16px">
+                      </div>
+                      <div class="col-auto"><img src="Assests/Icons/linkedin.svg" alt="Linkedin Page" width="16px">
+                      </div>
+                      <div class="col-auto"><img src="Assests/Icons/X.svg" alt="X page" width="16px"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2 order-sm-1 order-2">
+                <div class="row row-cols-1">
+                  <div class="col">
+                    <h6 class="fw-bolder mb-2">Quick Links</h6>
+                  </div>
+                  <div class="col">
+                    <nav>
+                      <ul class="m-0 p-0">
+                        <li class="nav-item">
+                          <a class="d-inline nav-link s-paragraph" aria-current="page" href="#">
+                            Home
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline nav-link  s-paragraph" href="#Products">Products</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline nav-link  s-paragraph" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline d-inline nav-link  s-paragraph" href="#use">How To Use</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline nav-link  s-paragraph" href="#">Contact Us</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2 order-sm-2 order-2">
+                <div class="row row-cols-1">
+                  <div class="col">
+                    <h6 class="fw-bolder mb-2">Services</h6>
+                  </div>
+                  <div class="col">
+                    <nav>
+                      <ul class="m-0 p-0">
+                        <li class="nav-item">
+                          <a class="d-inline nav-link s-paragraph" aria-current="page" href="#">
+                            Solution
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline nav-link  s-paragraph" href="#Products">Clouds</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline nav-link  s-paragraph" href="#features">Latest News</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline nav-link  s-paragraph" href="#use">VR/AR</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline nav-link  s-paragraph" href="#">Development</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-2 order-sm-2 order-3">
+                <div class="row row-cols-1">
+                  <div class="col">
+                    <h6 class="fw-bolder mb-2">Company</h6>
+                  </div>
+                  <div class="col">
+                    <nav>
+                      <ul class="m-0 p-0">
+                        <li class="nav-item">
+                          <a class="d-inline nav-link s-paragraph" aria-current="page" href="#">
+                            About
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline nav-link  s-paragraph" href="#Products">Partnership</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline nav-link  s-paragraph" href="#features">Features</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline nav-link  s-paragraph" href="#use">Media Center</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline nav-link  s-paragraph" href="#">Help Center</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-3 order-sm-3 order-3">
+                <div class="row row-cols-1">
+                  <div class="col">
+                    <h6 class="fw-bolder mb-2">Navigation</h6>
+                  </div>
+                  <div class="col">
+                    <nav>
+                      <ul class="m-0 p-0">
+                        <li class="nav-item">
+                          <a class="d-inline nav-link s-paragraph" aria-current="page" href="#">
+                            Privacy Policy
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline nav-link s-paragraph" href="#Products">Terms & Conditions</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline nav-link s-paragraph" href="#features">Faq</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline nav-link s-paragraph" href="#use">Shipping & Returns</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="d-inline nav-link s-paragraph" href="#">Size Guide</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-4 order-sm-3 order-1">
+                <div class="row row-cols-1">
+                  <div class="col">
+                    <h6 class="fw-bolder mb-2">CONTACT US</h6>
+                  </div>
+                  <div class="col">
+                    <div class="row row-cols-1">
+                      <address>
+                        <div class="col">
+                          <p class="s-paragraph mb-1">PAKISTAN</p>
+                        </div>
+                        <div class="col">
+                          <p class="s-paragraph mb-1">
+                            Gulstan-e-johar, Karachi, Sindh
+                          </p>
+                        </div>
+                        <div class="col">
+                          <p class="s-paragraph mb-1">+92 0000 000 000</p>
+                        </div>
+                      </address>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col mt-5">
+            <p class="s-paragraph text-center mb-1">Copyright &copy; 2024 All right rerserved</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- FOOTER ENDS -->
+
+</body>
+
+</html>
