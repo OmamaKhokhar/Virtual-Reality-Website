@@ -111,7 +111,6 @@ a{
 }
 .form-control#password:not(:placeholder-shown),.form-control#username:not(:placeholder-shown){
     background-image: none;
-
 }
 .form-button{
     background-color:rgb(255, 255, 255,0.3);
@@ -129,6 +128,17 @@ a{
 }
 .modal .button{
     font-size: 18px;
+}
+.btn-close{
+    background-color: rgb(212, 7, 7);
+    position: relative;
+    left:95%;
+    opacity:0.7;
+    z-index: 2;
+    pointer-events: auto; 
+}
+.btn-close:hover{
+    opacity:1;
 }
 
 /* Hero section */
@@ -178,6 +188,10 @@ header>.container-fluid:nth-child(2) {
     .modal-dialog{
         max-width:300px;
       
+    }
+    .btn-close{
+        left:90%;
+    
     }
 
 
