@@ -19,7 +19,6 @@
 
   <!-- HEADER STARTS -->
   <header>
-
     <!-- NAVBAR -->
     <div class="container-fluid">
       <div class="container">
@@ -59,11 +58,11 @@
               <li class="nav-item me-xl-5  me-lg-3">
                 <a class="nav-link " href="#">Contact Us</a>
               </li>
-              <li class=" nav-item  ms-xl-2 ms-lg-5 justify-content-end">
+              <li class=" nav-item  ms-xl-2 ms-lg-5 justify-content-end" >
                 <span class="w-auto nav-link p-0">
                   <a href="shop.html"><i class="me-3 fa-solid fa-cart-shopping fa-lg" style="color: #ffffff;"></i></a>
                   <i class="me-3 fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
-                  <button class=" button px-4">Sign in</button>
+                  <button class="button px-4" data-bs-toggle="modal" data-bs-target="#Signinform">Sign in</button>
 
                 </span>
 
@@ -113,7 +112,38 @@
         </div>
       </div>
     </div>
-
+      <!-- Sign in form -->
+    <div class="modal  fade" id="Signinform" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content rounded-5 ">
+          <div class="row row-cols-1 row-cols-lg-2 gap-4 gap-lg-0">
+              <div class="col order-last order-lg-first">
+                <div class="h-100 row align-content-center gap-4  ">
+                  <div class="text-center">
+                    <h1 class="display-2 mb-0">Welcome</h1>
+                    <p class="text-white-50">We are glad to see you back with us</p>
+                  </div>
+                  <div class="col-9 mx-auto">
+                    <div class="row gap-4">
+                      <input type="text" class="form-control bg-white bg-opacity-10 text-white" name="username" id="username" placeholder="Username" >
+                      <input type="password"  class="form-control bg-white bg-opacity-10 text-white" name="password" id="password" placeholder="Password" >  
+                      <button type="submit" class="button">Next</button>
+                      <p class="text-center text-white-50 "><a href=""><span class="fw-bold ">Login</span> with other</a></p>
+                      <button type="button" class="button form-button">Login with Google </button>
+                      <button type="button" class="button form-button">Login with Facebook </button>
+                    </div>
+                      
+                  </div>
+                </div>
+              </div>
+              <div class="col my-3 order-first ">
+                <img class="w-100 rounded-5 d-none d-lg-flex" src="Assests/Images/Signinform-image.jpg" alt="">
+                <img class="w-100 rounded-5  d-lg-none" src="Assests/Images/Signinform-image-mobile-screen.jpg" alt="">
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </header>
   <!-- HEADER ENDS -->
 

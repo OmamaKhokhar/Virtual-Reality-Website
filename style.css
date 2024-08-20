@@ -13,6 +13,10 @@ body {
     font-family: "Roboto-Regular" !important;
     background-color: #100527;
 }
+a{
+  text-decoration: none;
+  color: inherit;  
+}
 
 /* HEADER */
 /* navbar */
@@ -76,6 +80,56 @@ body {
     /* Set the height of the underline */
     background: linear-gradient(to right, #F124FF 5%, #8268DE 58%, #22D9E9 100%);
 }
+/* Sign in form */
+.modal-content{
+    background-color:#100527;
+}
+.modal-dialog{
+    max-width:calc(100vw - 25vw);
+    margin-inline: auto !important;
+}
+.modal-content{
+    padding: 25px;
+} 
+.form-control{
+/* Add your icon path here */
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 20px 20px; /* Adjust based on your icon size */
+    padding: 13px;
+    border-radius: 13px;
+}
+.form-control#username{
+    background-image: url('Assests/Icons/user.png'); 
+}
+.form-control#password{
+    background-image: url('Assests/Icons/lock.png'); 
+}
+.form-control::placeholder{
+    color: white;
+    padding-left: 25px;
+}
+.form-control#password:not(:placeholder-shown),.form-control#username:not(:placeholder-shown){
+    background-image: none;
+
+}
+.form-button{
+    background-color:rgb(255, 255, 255,0.3);
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    background-size: 30px 30px; /* Adjust based on your icon size */
+    border: 1px solid white;
+}
+.form-button:nth-child(5){
+    background-image: url(Assests/Icons/google.png);
+}
+.form-button:nth-child(6){
+    background-image: url(Assests/Icons/facebook.svg);
+    background-size: 25px 25px; 
+}
+.modal .button{
+    font-size: 18px;
+}
 
 /* Hero section */
 header>.container-fluid:nth-child(2) {
@@ -103,6 +157,30 @@ header>.container-fluid:nth-child(2) {
     .hero-section h1 {
         font-size: 6.1vw;
     }
+    .modal-dialog{
+        max-width:350px;
+      
+    }
+    .modal .button{
+        font-size: 12px;
+    }
+    .form-button{
+        background-position: 25px center;
+        background-size: 20px 20px; /* Adjust based on your icon size */
+    }
+    .form-button:nth-child(6){
+        background-size: 18px 18px; /* Adjust based on your icon size */
+    }
+
+
+}
+@media screen and (max-width: 375px) {
+    .modal-dialog{
+        max-width:300px;
+      
+    }
+
+
 }
 
 /* Media Query for the images in hero section (Mobile screens and Tablet) */
@@ -115,6 +193,9 @@ header>.container-fluid:nth-child(2) {
 
 /*Resetting Media Query for the image heading and button  in hero section in small laptop  */
 @media screen and (min-width:768px) {
+    /* .modal-dialog{
+        max-width:700pxpx;
+    } */
     .hero-section-image img {
         width: 100%;
         height: 100%;
@@ -132,12 +213,16 @@ header>.container-fluid:nth-child(2) {
     .button {
         font-size: 1.5vw;
     }
+
 }
 
 /*Resetting Media Query for the heading and button in hero section in large laptop  */
 @media screen and (min-width:769px) {
     .hero-section-image .row {
         height: 68%;
+    }
+    .modal .button{
+        font-size: 15px;
     }
 }
 
@@ -149,6 +234,15 @@ header>.container-fluid:nth-child(2) {
 
     .button {
         font-size: 1.1vw;
+    }
+    .modal-dialog{
+        max-width:1050px;
+    }
+    .form-button{
+        background-position: 80px center;
+    }
+    .modal .button{
+        font-size: 18px ;
     }
 }
 
@@ -176,6 +270,9 @@ div.article-section .article-card-detail {
 
     .specialty-section div.fs-5 {
         font-size: 16px !important;
+    }
+    .modal .button{
+        font-size: 20px ;
     }
 }
 
